@@ -1,0 +1,25 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Produto A",
+        "description": "Descrição genial do produto A aqui",
+        "price": 19.99,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 2,
+        "name": "Produto B",
+        "description": "Descrição incrivel desse produto B",
+        "price": 29.99,
+        "image": "https://via.placeholder.com/150"
+      },
+      {
+        "id": 3,
+        "name": "Produto C",
+        "description": "Descrição estupenda do inovador produto C",
+        "price": 39.99,
+        "image": "https://via.placeholder.com/150"
+      }
+    ]
+  }

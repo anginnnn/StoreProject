@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <script src="./cart.js" defer></script>
+</head>
+<body style="display: flex; justify-content: center; align-items: center">
+    <a href="/index.html" style="position: fixed; top: 5px; left: 5px;">voltar a página inicial</a>
+    <div style="display: flex; flex-direction:column">
+        <div id="carrinho">
+            Você ainda não adicionou nenhum item ao carrinho
+        </div>
+        <div style="display: grid">
+            <span id="totalPrice">Total: $00.00</span>
+            <button disabled id="buyAll">Comprar tudo</button>
+        </div>
+    </div>
+</body>
+</html>
